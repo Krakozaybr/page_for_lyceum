@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-  	<link rel="stylesheet" href="style.css"> 
-   		<head>
-						<meta charset="UTF-8"> 
-						<title>My page</title>
-				</head>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
   <body>
-  		<div class="circle" id="circle1"></div>
-  		<div class="circle" id="circle2"></div>
+    <div class="circle" id="circle1"></div>
+    <div class="circle" id="circle2"></div>
     <nav>
-			  <img src="" alt="Сменить тему" id="change_theme">
-		 </nav>
-			<main>
-			  	<div class='info block'>
-				   	 <img id="photo" src='Images/photo.jpg' alt="">
-						  <div class='summary'> 
-								 <p><span class="property">ФИО:</span> Гриценко Ярослав Александрович</p>
-					 		  <p><span class="property">Псевдоним:</span> krakozaybr (majestic)</p>
-								 <p><span class="property">Возраст:</span> 15 лет</p> <p><span class="property">Школа:</span> МБОУ "Лицей №8"</p> 
-								 <p><span class="property">Адрес:</span> Россия, Алтайский край, Новоалтайск</p> 
-								 <p><span class="property">Увлечения:</span> <span class='blue-span'>Программирование на java (android dev), python</span>; <span class="yellow-span">чтение книг(фэнтези)</span>; <span class="red-span">игра го</span></p>
-								 <p><span class="property"><a href="https://github.com/Krakozaybr" target='_blank'>Github</a>, <a target='_blank' href="https://bitbucket.org/%7Bd8c93766-4a46-4694-94f9-b61f0d9f2609%7D/">BitBucket</a></span> </p>
-				  	</div>		
-			  </div>
-			  <div class="block about">
-			  		<h2>Обо мне</h2>
-			  		<h3>Программирование</h3>
-			  		<p>Мой путь в программировании начался в ноябре 2020 с... верстки. Я прошел пробную часть Яндекс. Практикума, прослушал первый модуль "Web-разработка" от 1С для школьников. Итогом стал <a href="#WIM">WIM</a>.</p>
-			  		<p>Затем, 18 декабря я начал проходить Javarush. Курс я не окончил (остановился на половине последнего модуля), потому что прекратил чувствовать ощутимый прогресс</p>
-			  		<p>В начале этого года я поступил в Яндекс. Лицей. После Javarush это кажется легкой прогулкой)</p>
-			  		<p>Но java я не забросил (как можно?!), в ноябре 2021 я участвовал в Worldskills. Алтайский край. Из-за накладки Worldskills на муниципальный ВСОШ по информатике, я пропустил один день чемпионата, что отразилось на итоговом рейтинге. Второе место. А это был последний раз, когда я мог участвовать в возрастной группе до 16.</p>
-			  		<img src="Images/wsr.jpg" class="inner-img" alt="">
-			  		<h3>Учеба и олимпиады</h3>
-			  		<p>Я отличник. Хожу на доп. занятия по математике("Наследники Ползунова"). В этом году прошел на регион ВСОШ по информатике, физике и математике. Стал призером второй и не смог участвовать в последней из-за того, что уехал в ВДЦ "Океан", где и нахожусь сейчас. Верстаю с телефона)</p>
-			  </div>
-	  		<div class="block projects">
-	  				<h2>Мои проекты</h2>
-	  				<div class="project" id='WIM'>
-	  						<h3>ВИМ</h3>
-	  						<blockquote>«ВИМ - Веб Инструмент Математика»</blockquote>
-	  						<p class="description">ВИМ - мой первый проект. Он был создан как школьный проект.</p>
-	  						<p><span class="property"><a target='_blank' href="https://krakozaybr.github.io/WIM/index.html">Ссылка</a> <a target='_blank' href="https://github.com/Krakozaybr/Krakozaybr.github.io/tree/master/WIM">GitHub</a></span></p>
-	  				</div> 
-	  				<div class="project">
-	  						<h3>Weather app</h3>
-	          <div class="project-content">
-	  						  <div class="spinner" id="spinner2">
-	  								 <div id="weather_prev" class="prev_btn"><-</div>
-	  								 <div id="weather_next" class="next_btn">-></div>
-	  						  </div>
-	  						  <div class="project-text">
-	  						    <p class="description">Стандартный учебный проект. Приложение имеет несколько форматов ввода: текущее местополодение, координаты, название города, id города, посылает запрос на сервер и выводит результат</p>
-	  						    <p><span class="property"><a href="https://bitbucket.org/krakozaybr/weather_app/src" target='_blank'>BitBucket</a></span></p>
-	  						  </div>
-	  						</div>
-	  				</div>
-	  				<div class="project">
-	  						<h3>"D" - notebook app</h3>
-	  						<div class="project-content">
-	  						  <div class="spinner" id="spinner3">
-	  								  <div id='todo_prev' class="prev_btn"><-</div>
-	  								  <div id='todo_next' class="next_btn">-></div>
-	  						  </div>
-	  						<div class="project-text">
-	  						  <p class="description">Проект на региональный конкурс. ToDo list с регистрацией, авторизацией, публичными/приватными редактируемыми заметками. Всё это пока хранится в локальной базе данных, но в будущем, возможно, будет взаимодействие с сервером.</p>
-	  						  <p><span class="property"><a href="https://bitbucket.org/krakozaybr/todo_list/src/master/" target="_blank">BitBucket</a></span></p>
-	  					 </div>
-	  				</div>
+      <img src='Images/sun.png' alt="Сменить тему" id="change_theme">
+    </nav>
+    <main>
+      <div class='info block'>
+        <img id="photo" src='Images/photo.jpg' alt="">
+        <div class='summary'>
+          <p><span class="property">ФИО:</span> Гриценко Ярослав Александрович</p>
+          <p><span class="property">Псевдоним:</span> krakozaybr (majestic)</p>
+          <p><span class="property">Возраст:</span> 15 лет</p>
+          <p><span class="property">Школа:</span> МБОУ "Лицей №8"</p>
+          <p><span class="property">Адрес:</span> Россия, Алтайский край, Новоалтайск</p>
+          <p><span class="property">Увлечения:</span> <span class='blue-span'>Программирование на java (android dev), python</span>; <span class="yellow-span">чтение книг(фэнтези)</span>; <span class="red-span">игра го</span></p>
+          <p><span class="property"><a href="https://github.com/Krakozaybr" target='_blank'>Github</a>, <a target='_blank' href="https://bitbucket.org/%7Bd8c93766-4a46-4694-94f9-b61f0d9f2609%7D/">BitBucket</a></span> </p>
+        </div>
+      </div>
+      <div class="block about">
+        <h2>Обо мне</h2>
+        <h3>Программирование</h3>
+        <p>Мой путь в программировании начался в ноябре 2020 с... верстки. Я прошел пробную часть Яндекс. Практикума, прослушал первый модуль "Web-разработка" от 1С для школьников. Итогом стал <a href="#WIM">WIM</a>.</p>
+        <p>Затем, 18 декабря я начал проходить Javarush. Курс я не окончил (остановился на половине последнего модуля), потому что прекратил чувствовать ощутимый прогресс</p>
+        <p>В начале этого года я поступил в Яндекс. Лицей. После Javarush это кажется легкой прогулкой)</p>
+        <p>Но java я не забросил (как можно?!), в ноябре 2021 я участвовал в Worldskills. Алтайский край. Из-за накладки Worldskills на муниципальный ВСОШ по информатике, я пропустил один день чемпионата, что отразилось на итоговом рейтинге. Второе место. А это был последний раз, когда я мог участвовать в возрастной группе до 16.</p>
+        <img src="Images/wsr.jpg" class="inner-img" alt="">
+        <h3>Учеба и олимпиады</h3>
+        <p>Я отличник. Хожу на доп. занятия по математике("Наследники Ползунова"). В этом году прошел на регион ВСОШ по информатике, физике и математике. Стал призером второй и не смог участвовать в последней из-за того, что уехал в ВДЦ "Океан", где и нахожусь сейчас. Верстаю с телефона)</p>
+      </div>
+      <div class="block projects">
+        <h2>Мои проекты</h2>
+        <div class="project" id='WIM'>
+          <h3>ВИМ</h3>
+          <blockquote>«ВИМ - Веб Инструмент Математика»</blockquote>
+          <p class="description">ВИМ - мой первый проект. Он был создан как школьный проект.</p>
+          <p><span class="property"><a target='_blank' href="https://krakozaybr.github.io/WIM/index.html">Ссылка</a> <a target='_blank' href="https://github.com/Krakozaybr/Krakozaybr.github.io/tree/master/WIM">GitHub</a></span></p>
+        </div>
+        <div class="project">
+          <h3>Weather app</h3>
+          <div class="project-content">
+            <div class="spinner" id="spinner2">
+              <div id="weather_prev" class="prev_btn">&#10094;-</div>
+              <div id="weather_next" class="next_btn">-&#10095;</div>
+            </div>
+            <div class="project-text">
+              <p class="description">Стандартный учебный проект. Приложение имеет несколько форматов ввода: текущее местополодение, координаты, название города, id города, посылает запрос на сервер и выводит результат</p>
+              <p><span class="property"><a href="https://bitbucket.org/krakozaybr/weather_app/src" target='_blank'>BitBucket</a></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <h3>"D" - notebook app</h3>
+          <div class="project-content">
+            <div class="spinner" id="spinner3">
+              <div id='todo_prev' class="prev_btn">&#10094;-</div>
+              <div id='todo_next' class="next_btn">-&#10095;</div>
+            </div>
+            <div class="project-text">
+              <p class="description">Проект на региональный конкурс. ToDo list с регистрацией, авторизацией, публичными/приватными редактируемыми заметками. Всё это пока хранится в локальной базе данных, но в будущем, возможно, будет взаимодействие с сервером.</p>
+              <p><span class="property"><a href="https://bitbucket.org/krakozaybr/todo_list/src/master/" target="_blank">BitBucket</a></span></p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+    <script src="theme.js"></script>
+    <script src="spinners.js"></script>
   </body>
-<script src="theme.js"></script>
-<script src="spinners.js"></script>
 </html>
